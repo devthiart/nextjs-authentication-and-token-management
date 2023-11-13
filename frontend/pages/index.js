@@ -53,7 +53,7 @@ export default function HomeScreen() {
           onChange={handleChange}
         />
         <input
-          placeholder="Senha" name="username" type="password"
+          placeholder="Senha" name="password" type="password"
           value={values.password}
           onChange={handleChange}
         />

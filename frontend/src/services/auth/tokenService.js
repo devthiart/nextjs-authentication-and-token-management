@@ -16,7 +16,6 @@ export const tokenService = {
     // on the server and return 'not defined'.
     // globalThis?.localStorage?.setItem(ACCESS_TOKEN_KEY, accessToken);
     // globalThis?.sessionStorage?.setItem(ACCESS_TOKEN_KEY, accessToken);
-
     /*** USING COOKIES ***/
     nookies.set(ctx, ACCESS_TOKEN_KEY, accessToken, {
       maxAge: ONE_YEAR, // Cookie Lifetime.
